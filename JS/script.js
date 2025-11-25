@@ -388,10 +388,6 @@ function searchProducts() {
 }
 
 showNav();
-restoreCart();
-restoreFavHearts();
-inverserestoreCart();
-
 
 searchbtn.addEventListener('click', function(event) {
     event.preventDefault();
@@ -477,3 +473,7 @@ window.addEventListener("DOMContentLoaded", () => {
     changeCartListamount();
     restoreCart();
 });
+
+restoreCart();
+restoreFavHearts();
+inverserestoreCart();
