@@ -419,7 +419,10 @@ addcartbtns.forEach(button => {
 
         if (text === 'Add to cart') {
             addToCart(id);
-            this.innerText = 'Remove from cart';
+            if(currentUser !== null)
+            {
+                this.innerText = 'Remove from cart';
+            }
         } else {
             removefromcart(id);
             this.innerText = 'Add to cart';
