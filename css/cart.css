@@ -115,7 +115,8 @@ nav .bi-cart
 }
 .img-fluid
 {
-    height: 100% !important;
+    height: 190px !important;
+    width: 200px;
     object-fit: cover !important;
 }
 .card-title
